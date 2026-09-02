@@ -7,7 +7,7 @@
 [![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple?style=for-the-badge&logo=bootstrap)](https://getbootstrap.com/)
 
-🔗 **[เข้าชมเว็บไซต์หลัก (Landing Page)](https://recyclecommunity.infy.click)**
+🔗 **[เข้าชมเว็บไซต์หลัก (Landing Page)](https://recyclecommunity.infy.click/public.php)**
 
 ---
 
