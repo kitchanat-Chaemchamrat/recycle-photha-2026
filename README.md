@@ -2,7 +2,7 @@
 
 นวัตกรรมเพื่อสิ่งแวดล้อมที่ยั่งยืน และการบริหารจัดการเงินปันผลอย่างเป็นธรรมในระดับชุมชน
 
-[![Landing Page](https://img.shields.io/badge/Landing%20Page-Visit%20Website-success?style=for-the-badge&logo=google-chrome)](https://recyclecommunity.infy.click)
+[![Landing Page](https://img.shields.io/badge/Landing%20Page-Visit%20Website-success?style=for-the-badge&logo=google-chrome)](https://recyclecommunity.infy.click/public.php)
 [![PHP](https://img.shields.io/badge/PHP-8.0%2B-blue?style=for-the-badge&logo=php)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple?style=for-the-badge&logo=bootstrap)](https://getbootstrap.com/)
