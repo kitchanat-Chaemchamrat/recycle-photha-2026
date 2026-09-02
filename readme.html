@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบบริหารจัดการขยะชุมชน - คู่มือแนะนำการใช้งาน</title>
+    <link rel="manifest" href="manifest.json">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">ระบบบริหารจัดการขยะชุมชน</h1>
+            <p class="lead mb-4">นวัตกรรมเพื่อสิ่งแวดล้อมที่ยั่งยืน และการบริหารจัดการเงินปันผลอย่างเป็นธรรม</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="index.php" class="btn btn-light btn-lg px-4 fw-bold">เริ่มใช้งานระบบ</a>
+                <a href="#features" class="btn btn-outline-light btn-lg px-4">ดูคุณสมบัติหลัก</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mb-5">
+        <!-- Introduction -->
+        <section class="row mb-5 align-items-center">
+            <div class="col-lg-6">
+                <h2 class="section-title">เกี่ยวกับระบบ</h2>
+                <p>ระบบบริหารจัดการขยะชุมชน (Community Waste Management System) ถูกพัฒนาขึ้นเพื่อยกระดับการจัดการขยะในระดับชุมชน โดยเน้นการคัดแยกขยะตั้งแต่ต้นทาง และสร้างแรงจูงใจด้วยระบบเงินปันผลที่โปร่งใส ตรวจสอบได้</p>
+                <p>ระบบช่วยให้คณะกรรมการชุมชนสามารถติดตามปริมาณขยะ ประเมินผลการคัดแยกของแต่ละครัวเรือน และบริหารจัดการรายได้จากการขายขยะรีไซเคิลกลับคืนสู่สมาชิกได้อย่างมีประสิทธิภาพ</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="card glass-card p-4 text-center">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=CommunityWaste" alt="Example QR" class="img-fluid mx-auto mb-3" style="width: 150px;">
+                    <h5>ระบบรองรับ QR Code</h5>
+                    <p class="text-muted small">สแกนเพื่อเข้าถึงข้อมูลรายบ้านและบันทึกคะแนนได้ทันที</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section id="features" class="mb-5">
+            <h2 class="section-title text-center mx-auto" style="width: fit-content;">คุณสมบัติเด่นของระบบ</h2>
+            <div class="row g-4 mt-2">
+                <div class="col-md-4">
+                    <div class="card p-4 text-center">
+                        <i class="bi bi-speedometer2 feature-icon"></i>
+                        <h4>Dashboard สรุปภาพรวม</h4>
+                        <p>แสดงข้อมูลสถิติสำคัญ เช่น ปริมาณขยะรวม รายได้ และคะแนนเฉลี่ยของชุมชนในรูปแบบกราฟที่ดูง่าย</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4 text-center">
+                        <i class="bi bi-star-fill feature-icon"></i>
+                        <h4>ระบบประเมินผลอัจฉริยะ</h4>
+                        <p>บันทึกคะแนนการคัดแยกขยะรายบ้าน พร้อมแนบรูปถ่ายเป็นหลักฐานเพื่อความโปร่งใส</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4 text-center">
+                        <i class="bi bi-cash-coin feature-icon"></i>
+                        <h4>คำนวณเงินปันผลแม่นยำ</h4>
+                        <p>ระบบคำนวณส่วนแบ่งรายได้ให้สมาชิกโดยอัตโนมัติตามสัดส่วนคะแนนและปริมาณขยะ</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4 text-center">
+                        <i class="bi bi-file-earmark-pdf feature-icon"></i>
+                        <h4>รายงานและส่งออกข้อมูล</h4>
+                        <p>รองรับการส่งออกข้อมูลเป็น PDF และ Excel เพื่อสรุปผลรายเดือนหรือรายปี</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4 text-center">
+                        <i class="bi bi-qr-code-scan feature-icon"></i>
+                        <h4>สแกนผ่าน QR Code</h4>
+                        <p>เจ้าหน้าที่สามารถสแกน QR Code หน้าบ้านเพื่อบันทึกน้ำหนักและประเมินผลได้รวดเร็ว</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4 text-center">
+                        <i class="bi bi-shield-check feature-icon"></i>
+                        <h4>ระบบจัดการสิทธิ์ผู้ใช้</h4>
+                        <p>แยกสิทธิ์การใช้งานชัดเจนสำหรับ ผู้ดูแลระบบ, คณะกรรมการ และเจ้าหน้าที่เก็บขยะ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Access Roles -->
+        <section class="mb-5">
+            <h2 class="section-title">ระดับการเข้าใช้งาน</h2>
+            <div class="table-responsive">
+                <table class="table table-hover readme-table">
+                    <thead>
+                        <tr>
+                            <th>บทบาท (Role)</th>
+                            <th>คำอธิบายสิทธิ์การใช้งาน</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="badge bg-danger role-badge">Super Admin</span></td>
+                            <td>เข้าถึงทุกฟังก์ชันในระบบ ตั้งค่าระบบพื้นฐาน และจัดการสมาชิกทั้งหมด</td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge bg-primary role-badge">Admin</span></td>
+                            <td>จัดการข้อมูลบ้าน สมาชิก บันทึกการขายขยะ และคำนวณเงินปันผล</td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge bg-success role-badge">Collector</span></td>
+                            <td>บันทึกคะแนนการคัดแยก (ประเมิน) และบันทึกน้ำหนักขยะรายบ้าน</td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge bg-info role-badge">Auditor</span></td>
+                            <td>ดูรายงานภาพรวม และ Dashboard เพื่อตรวจสอบความโปร่งใส</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Quick Start -->
+        <section class="mb-5">
+            <h2 class="section-title">เริ่มต้นใช้งานเบื้องต้น (Quick Start)</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="list-group shadow-sm">
+                        <div class="list-group-item p-3">
+                            <h5 class="mb-1"><i class="bi bi-1-circle-fill step-icon-blue me-2"></i>เข้าสู่ระบบ</h5>
+                            <p class="mb-0 text-muted">ใช้บัญชีที่ได้รับจากผู้ดูแลระบบเพื่อเข้าสู่ระบบที่หน้า Login</p>
+                        </div>
+                        <div class="list-group-item p-3">
+                            <h5 class="mb-1"><i class="bi bi-2-circle-fill step-icon-yellow me-2"></i>บันทึกข้อมูลพื้นฐาน</h5>
+                            <p class="mb-0 text-muted">เพิ่มข้อมูลซอย, บ้าน และสมาชิกในชุมชนให้ครบถ้วน</p>
+                        </div>
+                        <div class="list-group-item p-3">
+                            <h5 class="mb-1"><i class="bi bi-3-circle-fill step-icon-blue me-2"></i>ประเมินผลและชั่งน้ำหนัก</h5>
+                            <p class="mb-0 text-muted">เจ้าหน้าที่ลงพื้นที่บันทึกคะแนนและน้ำหนักขยะผ่านแท็บเล็ตหรือมือถือ</p>
+                        </div>
+                        <div class="list-group-item p-3">
+                            <h5 class="mb-1"><i class="bi bi-4-circle-fill step-icon-yellow me-2"></i>สรุปผลและปันผล</h5>
+                            <p class="mb-0 text-muted">เมื่อสิ้นสุดรอบการขายขยะ ผู้ดูแลระบบทำการสรุปและออกเงินปันผล</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-4 h-100">
+                        <h5><i class="bi bi-info-circle-fill text-primary-custom me-2"></i>ข้อมูลทางเทคนิค</h5>
+                        <hr>
+                        <ul>
+                            <li><strong>เทคโนโลยี:</strong> PHP 8.0+, MySQL</li>
+                            <li><strong>การแสดงผล:</strong> รองรับ Mobile, Tablet และ Desktop (Responsive)</li>
+                            <li><strong>ความปลอดภัย:</strong> ระบบ Login แยกสิทธิ์ และการเข้ารหัสข้อมูล</li>
+                            <li><strong>ฐานข้อมูล:</strong> <code>remon_waste</code></li>
+                        </ul>
+                        <div class="alert alert-warning mt-3">
+                            <small><i class="bi bi-exclamation-triangle-fill me-1"></i> หมายเหตุ: กรุณารองรับสิทธิ์การเขียนไฟล์ในโฟลเดอร์ <code>uploads/</code> เพื่อการจัดเก็บรูปภาพหลักฐาน</small>
+                        </div>
+                        <div class="mt-4">
+                            <iframe src="https://1drv.ms/i/c/24fd768e064646d7/IQTG7gb3kiw_SJ8GKhHjn14LAfUCKta5LbIP7XirAuL-RSg?width=1024&embed=1" width="100%" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="readme-footer text-center">
+        <div class="container">
+            <p class="mb-2">ระบบบริหารจัดการขยะชุมชน &copy; 2024</p>
+            <p class="small text-muted">พัฒนาขึ้นเพื่อสร้างสังคมที่สะอาดและน่าอยู่อย่างยั่งยืน</p>
+            <div class="mt-3">
+                <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-line"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-globe"></i></a>
+            </div>
+            <div class="mt-4">
+                <button id="installAppBtn" class="btn btn-accent-custom rounded-pill px-4" style="display: none;">
+                    <i class="bi bi-download"></i> ติดตั้งแอปพลิเคชัน (Install App)
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js');
+            });
+        }
+        let deferredPrompt;
+        const installBtn = document.getElementById('installAppBtn');
+        if (installBtn) {
+            window.addEventListener('beforeinstallprompt', (e) => {
+                e.preventDefault();
+                deferredPrompt = e;
+                installBtn.style.display = 'inline-block';
+            });
+            installBtn.addEventListener('click', async () => {
+                if (deferredPrompt) {
+                    deferredPrompt.prompt();
+                    const { outcome } = await deferredPrompt.userChoice;
+                    deferredPrompt = null;
+                    installBtn.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
