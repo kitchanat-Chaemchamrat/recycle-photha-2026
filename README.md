@@ -9,10 +9,7 @@
 
 🔗 **[เข้าชมเว็บไซต์หลัก (Landing Page)](https://recyclecommunity.infy.click/public.php)**
 
-<iframe src="https://1drv.ms/v/c/24fd768e064646d7/IQSqLHNNyuthRLMkMM48a7Y4AbhjhGyTdAQ9Of7pkDp8pig" width="100%" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
 ---
-<img src="https://1drv.ms/v/c/24fd768e064646d7/IQSqLHNNyuthRLMkMM48a7Y4AbhjhGyTdAQ9Of7pkDp8pig?height=660" width="auto" height="660" />
 
 ## 📖 เกี่ยวกับระบบ (About)
 **ระบบบริหารจัดการขยะชุมชน** ถูกพัฒนาขึ้นเพื่อยกระดับการจัดการขยะในระดับชุมชน โดยเน้นการคัดแยกขยะตั้งแต่ต้นทาง และสร้างแรงจูงใจด้วยระบบเงินปันผลที่โปร่งใส ตรวจสอบได้
